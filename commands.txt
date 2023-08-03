@@ -1,0 +1,132 @@
+**Create project with vite
+cmd
+npm create vite@latest project_name -- --template react
+cd project_name
+npm install
+
+**next, install tailwindcss
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+inside tailwind.config.js
+ content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
+
+inside index.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+App.jsx
+export default function App() {
+  return (
+    <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
+  )
+}
+
+** run the project
+npm run dev
+
+**rafce to create an arrow function that imports react, //looking for extention
+sfc // create an arrow function
+
+
+** Install react bootstrap
+https://react-bootstrap.github.io/docs/getting-started/introduction
+npm install react-bootstrap bootstrap
+
+** swiper react components
+https://swiperjs.com/element
+
+npm install swiper
+
+**INSTALL react router dom
+npm i react-router-dom
+
+
+**********************
+right click inside the folder to store the project, choose git bash here
+type 
+git clone url_link_project
+enter
+
+** Cach push project len github after creating a repository, then write code, then  push to githuh
+git status // check trang thai
+git add .
+git status 
+git commit -m "added test-text.txt file"
+git push origin main
+
+** write code first, push to github
+echo "# demo-push" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/vanguyen333/demo-push.git
+git push -u origin main
+
+** main
+git init
+git add .
+git status
+git commit -m "commit"
+git branch -M main
+git remote add origin https://github.com/vanguyen333/demo-push.git
+git push -u origin main
+
+
+** master
+git init
+git add .
+git remote add origin https://github.com/vanguyen333/demo-push.git
+git push origin master
+
+
+
+** switch branch
+git checkout -b newbranch
+
+** lam viec voi nhom
+	git pull = git fetch + git merge
+git pull origin main
+
+** create new branch
+git checkout -b branch_name
+
+git branch //check existing branch
+git checkout main // switch from other branch to the main branch
+
+** 
+push len gap error( do conflict) thi dung
+git pull
+tiep tuc gap conflict
+open the file and keep the code content you want to, save the file
+git status
+git add .
+git commit -m 'resolved conflict
+git push orign branch_name
+
+** check last commit
+git log -1
+git pull //pull code ve, check conflict
+git add .
+git commit -m 'resolve conflict'
+git push origin main
+
+** create a new branch
+git branch -c branchName
+
+**Create a new branch from a repository and push a completely new project to that branch
+git init
+git commit -m "message"
+git add .
+
+***revert to a previous commit
+git log //to get id commit
+ git reset --hard id_command
+ex:44603908b3dc6ab0cfc383bfb95267f0f77bee39
+
+** navigate within the same page
+npm install react-router-dom react-router-hash-link
