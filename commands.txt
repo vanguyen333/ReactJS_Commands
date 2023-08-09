@@ -130,3 +130,19 @@ ex:44603908b3dc6ab0cfc383bfb95267f0f77bee39
 
 ** navigate within the same page
 npm install react-router-dom react-router-hash-link
+
+** 2 people work on a project push to github
+on branch van
+switch to branch main: git checkout main
+pull code from github: git pull origin main
+switch to van branch: git checkout van
+pull code from main to van: git pull origin main
+
+On van branch:
+van created a file: 
+git add .
+git commit -m "commit message"
+git push origin van //push to van branch
+git checkout main //switch to branch main
+git merge van//merge code in branch main with branch van
+
