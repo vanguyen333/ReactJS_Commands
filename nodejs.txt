@@ -4,3 +4,8 @@ npm init -y //create package.json file
 
 npm install --save express //install express
 npm i --save-dev nodemon
+
+
+** khoi tao api
+npm init -y
+npm i express mysql nodemon

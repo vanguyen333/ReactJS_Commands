@@ -1,0 +1,8 @@
+hold alt + click : select multiple lines
+alt up, down arrow to move the line up and down in between lines
+ctrl + X : delete a line
+ctrl + d : to highline a word
+ctrl + p: quickly open a file
+ctrl shift L: select all occurrences of the current selection
+ctrl + A, alt shift I : add cursors to all end of lines
+fn + right arrow: end of line
