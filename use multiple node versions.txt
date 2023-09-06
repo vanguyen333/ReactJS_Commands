@@ -1,0 +1,26 @@
+use multiple node versions
+nvm : node version manager
+check node version in vscode
+nvm list
+nvm use 14.17.0
+Step 1: uninstall node.js (version nodejs dang dung 18.16.0)
+Step 2: install nvm
+Step 3: install node.js (necessary nodejs versions)
+nvm install 18.16.0
+nvm install 14.17.0
+
+**list nodejs version
+nvm list
+**user a specific version
+nvm use 14.17.0
+
+
+
+
+
+
+
+
+
+docker compose -f mysql.yml -p nodejs-sql up -d
+npm install --save-exaact mysql2@2.3.3
