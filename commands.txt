@@ -146,3 +146,15 @@ git push origin van //push to van branch
 git checkout main //switch to branch main
 git merge van//merge code in branch main with branch van
 
+** OPEN SYMBOLS with keyboard
+window + .
+** clone a long lost project from github and push again
+git clone https://github.com/vanguyen333/Python.git
+
+add sth new
+git remote add origin https://github.com/vanguyen333/Python.git
+git commit -m 'abc'
+git branch --set-upstream-to=origin/main
+git fetch origin
+git rebase origin/main
+git push origin main

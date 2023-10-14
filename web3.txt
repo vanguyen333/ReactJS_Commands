@@ -1,0 +1,4 @@
+npm i -D hardhat
+npm hardhat init
+npm i @openzeppelin/contracts
+
