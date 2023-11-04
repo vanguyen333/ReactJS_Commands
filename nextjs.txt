@@ -1,0 +1,8 @@
+build a project with NextJS
+npx create-next-app@latest ./
+typescript: no
+eslint: no
+tailwindcss: yes
+src: no
+experinam app:yes
+import alias:no

@@ -4,6 +4,9 @@ npm create vite@latest project_name -- --template react
 cd project_name
 npm install
 
+//vite way 2
+npm create vite@latest ./ -- --template react
+
 **next, install tailwindcss
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
