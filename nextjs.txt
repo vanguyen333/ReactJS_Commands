@@ -6,3 +6,7 @@ tailwindcss: yes
 src: no
 experinam app:yes
 import alias:no
+
+npm install bcrypt mongodb mongoose next-auth
+
+18772322269
