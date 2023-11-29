@@ -10,3 +10,52 @@ import alias:no
 npm install bcrypt mongodb mongoose next-auth
 
 18772322269
+
+* another way
+npx create-next-app@latest 
+what is your project name? .
+typespcript? yes
+eslint: yes
+tailwindincss: yes
+src: no
+app router: yes
+import alias: yes
+
+Add eslint config
+npm i eslint-config-standard
+
+//inside .eslintrc.json
+{
+  "extends": ["next/core-web-vitals", "standard"]
+}
+
+test eslint by running 
+npm run lint
+npm install eslint-plugin-tailwindcss
+
+//change .eslintrc.json
+{
+  "extends": [
+    "next/core-web-vitals",
+    "standard",
+    "plugin:tailwindcss/recommended"
+  ]
+}
+// prettier vs eslint potential conflicts
+
+npm install eslint-config-prettier
+
+{
+  "extends": [
+    "next/core-web-vitals",
+    "standard",
+    "plugin:tailwindcss/recommended",
+    "prettier"
+  ]
+}
+//then install ESLint (orange logo)
+
+npm install prettier
+
+
+standardjs.com/rules.html

@@ -1,2 +1,11 @@
 install package for threejs
 npm i @react-three/fiber
+npm i @react-three/drei
+
+email packgage
+npm i @emailjs/browser
+
+sketchfab.com/3d-models/fox-islands-163b68e09fcc47618450150be7785907
+gltf.pmnd.rs
+Knguyen#2311
+
