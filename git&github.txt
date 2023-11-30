@@ -1,0 +1,8 @@
+create repository
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+ git remote add origin https://github.com/vanguyen333/stack_overflow_nextjs14.git
+git push origin main
