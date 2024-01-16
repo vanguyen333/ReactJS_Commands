@@ -1,4 +1,4 @@
-build a project with NextJS
+8build a project with NextJS
 npx create-next-app@latest ./
 typescript: no
 eslint: no
@@ -60,4 +60,7 @@ npm install prettier
 
 standardjs.com/rules.html
 
-// Nexjs course
+// Nexjs cours
+1. intro
+nextjs is a flexible react js framework
+
