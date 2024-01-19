@@ -66,3 +66,4 @@ standardjs.com/rules.html
 nextjs is a flexible (full stack) react js framework
 1.a The Ecosystem
   + Nodejs: a javascript run time environment that allows us to run code outside the browser
+  + NPM: node package manager
