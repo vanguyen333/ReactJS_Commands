@@ -63,7 +63,12 @@ standardjs.com/rules.html
 
 // Nexjs cours
 1. intro
+* foundation
 nextjs is a flexible (full stack) react js framework
 1.a The Ecosystem
   + Nodejs: a javascript run time environment that allows us to run code outside the browser
   + NPM: node package manager
+*Bundles and compilers
+  + webpacks : bundlers like webpack or Parcel help combine our Javascript files and other assets into a single bundle.
+
+
