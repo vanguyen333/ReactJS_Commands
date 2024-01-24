@@ -1,4 +1,4 @@
-8build a project with NextJS
+⁸8build a project with NextJS
 npx create-next-app@latest ./
 typescript: no
 eslint: no
@@ -74,6 +74,9 @@ nextjs is a flexible (full stack) react js framework
 
 2.Status Code
 200: ok
+201: created
+
+
 
 
  
